@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Kocca from './routes/kocca'
 import Megabox from './routes/megabox'
 import Sumgo from './routes/sumgo'
