@@ -1,0 +1,55 @@
+#kocca{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    color: #333;
+    background: #222;
+    .color_box{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #eea1a1;
+        width: 70vw;
+        height: 85vh;
+        border-radius: 0 30% 0 0;
+        .text{
+            padding: 80px;
+            h2{
+                color: #222;
+                margin-bottom: 50px;
+                font-size: 80px;
+            }
+            p{
+                font-size: 20px;
+                margin: 100px 0;
+            }
+            .skills{
+                
+                .skill_logo{
+                    height: 120px;
+                    width: 120px;
+                    margin-right: 30px;
+                }
+            }
+            .link{
+                margin-top: 20px;
+                a{
+                    img{
+                        height: 120px;
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+    .flow_img{
+        width: 50%;
+        position: absolute;
+        right: 5%;
+        top: -13%;
+        transform: rotate(8deg);
+        img{
+            width: 100%;
+        }
+    }
+}
