@@ -14,7 +14,6 @@ import Contact from './components/Contact'
 
 const Router = () => {
     return (
-        <BrowserRouter>
             <Routes>
                 <Route path = '/' element={<Home/>} />
                 <Route path = '/kocca' element={<Kocca/>} />
@@ -28,7 +27,6 @@ const Router = () => {
                 <Route path = '/project' element={ <Project/> } />
                 <Route path = '/contact' element={ <Contact/> } />
             </Routes>
-        </BrowserRouter>
     );
 };
 

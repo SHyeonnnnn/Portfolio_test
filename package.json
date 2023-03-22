@@ -1,6 +1,4 @@
 {
-  "homepage": "http://SHyeonnnnn.github.io/portfolio_test/",
-  "main": "index.js",
   "name": "15_portfolio",
   "version": "0.1.0",
   "private": true,
@@ -44,5 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "http://SHyeonnnnn.github.io/portfolio_test"
 }
